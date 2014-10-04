@@ -28,7 +28,7 @@ The plugin comes with an example to see how the plugin works , it is under
 
 To use the example :
 
-1. Copy ```example/Dark``` to ```your/theme/folder/color-schema/Dark
+1. Copy ```example/Dark``` to ```your/theme/folder/color-schema/Dark```
 2. Activate the new schema from you profile 
 
 ![ScreenShot](https://raw.github.com/hyyan/admin-color-schema/master/example/Dark/screenshot.png
@@ -39,7 +39,7 @@ To use the example :
 
 The plugin comes with following configuration as default :
 
-```
+```php
 $default = array(
     // path relative to the theme dir 
     'path' => '/color-schema',
@@ -56,7 +56,7 @@ $default = array(
 You can override the default configuration using ```add_filters``` function like 
 in the following example :
 
-```
+```php
 // in the your theme's functions.php file
 
 add_filter('Hyyan\AdminColorSchema.options', function(array $default) {
@@ -79,7 +79,8 @@ If you are using the default path in the plugin configuration then :
 2. Create new schema dir for example : ```vivid``` in the ```color-schema```
 3. Create ```schema.ini``` file and configure it like in the following
    example :
-```
+
+```ini
 ; the name of your theme if not set the current dir name will  be used
 ; for example if your theme live in "color-schema/vivid" then "vivid" will be used as name of theme
 name= my create theme 
@@ -103,7 +104,7 @@ icons []= #e1a948
 
 4. create 'colors.scss' like the following example then complie it into ```colors.css```
 
-```
+```sass
 $base-color: #52accc;
 $icon-color: #e5f8ff;
 $highlight-color: #096484;
