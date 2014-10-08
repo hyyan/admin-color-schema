@@ -23,6 +23,8 @@ class HyyanAdminColorSchema {
         $this->removeColorPicker();
 
         // register admin hooks
+        add_action('wp_before_admin_bar_render', array($this, 'saveSchemesList'));
+        add_action('wp_enqueue_scripts', array($this, 'enqueueAdminBarColor'));
         add_action('admin_init', array($this, 'collectSchema'));
         add_action('user_register', array($this, 'registerDefaultColorSchema'));
     }
@@ -111,6 +113,35 @@ class HyyanAdminColorSchema {
     }
 
     /**
+     * Save the color schemes list into wp_options table
+     */
+    function saveSchemesList() {
+        global $_wp_admin_css_colors;
+
+        if (count($_wp_admin_css_colors) > 1 && has_action('admin_color_scheme_picker')) {
+            update_option('wp_admin_color_schemes', $_wp_admin_css_colors);
+        }
+    }
+
+    /**
+     * Enqueue the registered color schemes on the front end
+     */
+    function enqueueAdminBarColor() {
+        if (!is_admin_bar_showing())
+            return;
+
+        $user_color = get_user_option('admin_color');
+
+        if (isset($user_color)) {
+            $setting = $this->getOptions();
+            if (true == $setting['enbale-on-frontend']) {
+                $wp_admin_color_schemes = get_option('wp_admin_color_schemes');
+                wp_enqueue_style($user_color, $wp_admin_color_schemes[$user_color]->url);
+            }
+        }
+    }
+
+    /**
      * Get the default options 
      * 
      * You can change the default options by using the 
@@ -136,6 +167,8 @@ class HyyanAdminColorSchema {
             // if true the user will be no more able to change its dashboard color schema
             // and the default one will be used
             'disable_color_picker' => false,
+            // enable color-schema on fontend
+            'enbale-on-frontend' => true
         );
         return apply_filters('Hyyan\AdminColorSchema.options', $default);
     }
