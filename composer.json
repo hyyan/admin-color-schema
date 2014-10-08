@@ -1,7 +1,7 @@
 {
     "name": "hyyan/admin-color-schema",
     "description": "A wordpress plugin to enable wordpress themes to add its own admin color schema directly from theme",
-    "type": "wordpress-muplugin",
+    "type": "wordpress-plugin",
     "license": "MIT",
     "authors": [
         {
