@@ -1,14 +1,12 @@
 <?php
 
 /*
- * This file is part of the hyyan/admin-color-schema plugin.
+ * This file is part of the hyyan/admin-color-schema package.
  * (c) Hyyan Abo Fakher <tiribthea4hyyan@gmail.com>
  * 
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-
-namespace Hyyan\AdminColorSchema;
 
 /**
  * HyyanAdminColorSchema
@@ -135,7 +133,7 @@ class HyyanAdminColorSchema {
             'path' => '/color-schema',
             // default color-schema to activate for every new user
             'default' => '',
-            // if true the user will no more able to change its dashboard color schema
+            // if true the user will be no more able to change its dashboard color schema
             // and the default one will be used
             'disable_color_picker' => false,
         );

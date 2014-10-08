@@ -10,7 +10,9 @@
  * License: MIT License
  */
 
+require_once __DIR__ . '/src/HyyanAdminColorSchema.php';
+
 /**
  * Bootstrap the plugin
  */
-new Hyyan\AdminColorSchema\HyyanAdminColorSchema();
+new HyyanAdminColorSchema();
