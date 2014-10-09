@@ -7,6 +7,7 @@
  * Author: Hyyan Abo Fakher
  * Version: 0.1
  * Author URI: https://github.com/hyyan
+ * GitHub Plugin URI: hyyan/admin-color-schema
  * License: MIT License
  */
 
