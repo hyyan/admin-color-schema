@@ -105,7 +105,6 @@ class HyyanAdminColorSchema {
     protected function removeColorPicker() {
         $setting = $this->getOptions();
         if (
-                current_user_can('manage_options') &&
                 $setting['disable_color_picker'] == true
         ) {
             remove_action('admin_color_scheme_picker', 'admin_color_scheme_picker');
