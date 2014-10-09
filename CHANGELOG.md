@@ -1,6 +1,11 @@
+
+### 0.3
+
+* Changed the plugin name to ```Hyyan Admin Color Schema```
+
 ### 0.2
  
-The release is the same as ```0.1.1``` but ```0.1.1``` is wrong release acording
+The release is the same as ```0.1.1``` but ```0.1.1``` is wrong release according
 to the semantic versioning specification
 
 ###0.1.1
