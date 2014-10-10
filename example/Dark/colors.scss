@@ -1,0 +1,27 @@
+// see your/wordpress/intallation/path/wp-admin/css/colors/_variables.scss
+
+$text-color: #fff !default;
+$base-color: #000 !default;
+$icon-color: #ccc !default;
+$highlight-color: #3399ff !default;
+$notification-color: #3399ff !default;
+
+/**
+ * NOTE
+ *========
+ * Use your wordpress installation path to include the '_admin.scss' file
+ * 
+ * The file must be compiled in the development environment and the plugin will
+ * not read this file or compile for you it will read the "colors.css" or the
+ * "colors-rtl.css" only.
+ */
+
+@import "your/wordpress/intallation/path/wp-admin/css/colors/_admin.scss";
+
+#wpadminbar .dev-mode-notification,
+#wpadminbar .dev-mode-notification:hover,
+#wpadminbar .dev-mode-notification a,
+#wpadminbar .dev-mode-notification a:hover {
+    background-color:$notification-color !important;
+    color:$text-color !important;
+}
