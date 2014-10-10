@@ -6,7 +6,8 @@ Tested up to: 4.0
 Stable tag: 0.4
 License: MIT
 
-Ennable wordpress themes to add its own admin color schemas directly from theme
+Enable wordpress theme to add its own admin color schemas directly from theme
+
 
 == Description ==
 
@@ -157,7 +158,7 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 =0.4=
 
-*Added support for wordpress repository
+* Added support for wordpress repository
 
 =0.3=
 
