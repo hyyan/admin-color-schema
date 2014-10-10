@@ -8,7 +8,10 @@ License: MIT
 
 Enable wordpress theme to add its own admin color schemas directly from theme
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 == Description ==
 
 The plugin to enable wordpress themes to add its own admin color schemas directly from theme
@@ -155,6 +158,10 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 1. Showing the dark example
 
 == Changelog ==
+
+=0.4.1=
+
+* Fixed errors in the wordpress text file
 
 =0.4=
 

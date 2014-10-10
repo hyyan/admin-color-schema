@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+### 0.4.1
+
+* Fixed errors in the wordpress text file
+
+>>>>>>> master
 ### 0.4
 
 * Added support for wordpress repository
