@@ -155,6 +155,10 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 == Changelog ==
 
+=0.4.1=
+
+* Fixed errors in the wordpress text file
+
 =0.4=
 
 Added support for wordpress repository
