@@ -1,3 +1,7 @@
+### 0.4.2
+
+* Prevented direct access for the plugin file
+
 ### 0.4.1
 
 * Fixed errors in the wordpress text file
