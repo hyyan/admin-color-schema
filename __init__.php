@@ -11,6 +11,8 @@
  * License: MIT License
  */
 
+if (!defined('ABSPATH')) exit('restricted access');
+
 require_once __DIR__ . '/src/HyyanAdminColorSchema.php';
 
 /**
