@@ -1,3 +1,7 @@
+### 0.4.1
+
+* Fixed errors in the wordpress text file
+
 ### 0.4
 
 * Added support for wordpress repository
