@@ -1,6 +1,6 @@
 ### 0.4
 
-Added support for wordpress repository
+* Added support for wordpress repository
 
 ### 0.3
 
