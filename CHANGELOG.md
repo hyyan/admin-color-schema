@@ -1,6 +1,3 @@
-### 0.4
-
-Added support for wordpress repository
 
 ### 0.3
 
@@ -18,4 +15,4 @@ to the semantic versioning specification
 
 ###0.1
 
-* Initial commit
+* Initial commi

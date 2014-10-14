@@ -8,12 +8,6 @@
 The plugin to enable wordpress themes to add its own admin color schemas directly 
 from theme
 
-## Features
-
-1. Adding new admin color shemas directly with theme
-2. Activating specific admin color schema for every new registered user automatically
-3. Removing admin color picker from users profile
-4. Applying selected admin color shema on the wordpress adminbar in the frontend
 
 ## How to install
 
