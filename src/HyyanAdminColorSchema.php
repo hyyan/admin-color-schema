@@ -135,7 +135,8 @@ class HyyanAdminColorSchema {
             $setting = $this->getOptions();
             if (true == $setting['enbale-on-frontend']) {
                 $wp_admin_color_schemes = get_option('wp_admin_color_schemes');
-                wp_enqueue_style($user_color, $wp_admin_color_schemes[$user_color]->url);
+                if (isset($wp_admin_color_schemes[$user_color]))
+                    wp_enqueue_style($user_color, $wp_admin_color_schemes[$user_color]->url);
             }
         }
     }

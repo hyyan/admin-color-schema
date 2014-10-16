@@ -1,3 +1,8 @@
+### 0.4.3
+
+* Fixed notice message when schema can't be loaded
+
+
 ### 0.4.2
 
 * Prevented direct access for the plugin file
