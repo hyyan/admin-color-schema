@@ -1,3 +1,7 @@
+### 0.4.4
+
+* Tested on wordpress 4.1.0
+
 ### 0.4.3
 
 * Fixed notice message when schema can't be loaded
