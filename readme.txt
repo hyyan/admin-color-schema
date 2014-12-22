@@ -2,8 +2,8 @@
 Contributors: hyyan 
 Tags: admin, admin color scheme, color, color scheme, scheme
 Requires at least: 3.0.1
-Tested up to: 4.0
-Stable tag: 0.4.3
+Tested up to: 4.1.0
+Stable tag: 0.4.4
 License: MIT
 
 Enable wordpress theme to add its own admin color schemas directly from theme
@@ -154,6 +154,10 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 1. Showing the dark example
 
 == Changelog ==
+
+=0.4.4=
+
+* Tested on wordpress 4.1.0
 
 =0.4.3=
 
